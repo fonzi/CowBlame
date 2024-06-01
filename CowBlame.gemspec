@@ -4,12 +4,12 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name               = "cowblame"
-  s.version            = "0.0.7"
+  s.version            = "0.0.8"
   s.default_executable = "cowblame"
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Fonzi Vazquez"]
   s.date = Time.now
+  s.licenses = ['MIT']
   s.description = %q{A cow that blames people}
   s.email = %q{alfonso.vazquez@protonmail.com}
   s.files = ["lib/CowBlame.rb", "lib/names.txt"]
