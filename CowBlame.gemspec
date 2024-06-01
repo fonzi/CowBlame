@@ -4,9 +4,9 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name               = "cowblame"
-  s.version            = "0.0.8"
-  s.default_executable = "cowblame"
+  s.version            = "0.0.9"
 
+  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Fonzi Vazquez"]
   s.date = Time.now
   s.licenses = ['MIT']
